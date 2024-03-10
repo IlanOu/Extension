@@ -1,10 +1,20 @@
-<script setup lang="ts">
-</script>
-
 <template>
 <!-- <ContentDoc path="/test"/> -->
-  
+
 <div class="mx-60 max-w-1/1 centered">
+ 
+  <div class="topBar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="logo Wikipedia" class="w-20">
+  
+    <input type="text" class="shadowTopbar bg-[#e0dffd] placeholder-[#7766C688] text-[#7766c6] outline-none w-96 h-10 rounded-full text-sm px-4 py-2" placeholder="Rechercher sur Wikipédia"/>
+
+    <div class="h-10 w-10 bg-[#e0dffd] rounded-full shadowTopbar cursor-pointer hover:bg-[#7766C6] transition-all ease"></div>
+  </div>
+
+  <div class="row mt-36">
+    <h2 class="text-2xl font-bold text-[#7766C6]">Bienvenue sur Wikipédia</h2>
+    <hr>
+  </div>
 
   <div class="columns row my-10">
     <Block title="Présentation" class="my-2 mr-1.5 pt-5">
@@ -115,9 +125,55 @@
 
 </div>
 
+
+<div class="bg-[#e0dffd] px-5 py-10 mt-36 text-[#7766C6] text-sm">
+  <p>
+    La dernière modification de cette page a été faite le 11 juin 2023 à 07:46.
+  </p>
+  <br>
+  <p>
+    Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+  </p>
+  <p>
+    Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+  </p>
+  <br>
+  <p>
+    <a class="font-bold hover:underline" href="">Politique de confidentialité</a> - <a class="font-bold hover:underline" href="">À propos de Wikipédia</a> - <a class="font-bold hover:underline" href="">Avertissements</a> - <a class="font-bold hover:underline" href="">Contact Code de conduite</a> - <a class="font-bold hover:underline" href="">Développeurs</a> - <a class="font-bold hover:underline" href="">Statistiques</a> - <a class="font-bold hover:underline" href="">Déclaration sur les témoins (cookies)</a> - <a class="font-bold hover:underline" href="">Version mobile</a>
+  </p>
+</div>
+
+
 </template>
 
 <style scoped>
+
+.topBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+}
+
+.shadowTopbar{
+  box-shadow: 0 5px 5px 0px rgba(224, 223, 253, 0.5);
+  transition: all 0.25s ease;
+}
+
+.shadowTopbar:focus{
+  box-shadow: 0 0px 5px 0px rgba(224, 223, 253, 0.5);
+}
+
+
+h2{
+  align-self: flex-start;
+}
+
+hr {
+    border: solid 1px #e0dffd;
+}
+
+
 li {
   list-style-type: circle;
   margin-left: 1rem;

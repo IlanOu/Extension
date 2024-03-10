@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 </script>
 
 <template>
-  <ContentDoc path="/test"/>
-  <Block/>
+  <!-- <ContentDoc path="/test"/> -->
+  
 
-  <button type="button">Ceci est un bouton</button>
+  <button class="bg-blue-500 text-white p-1" type="button">Ceci est un bouton</button>
 
 </template>

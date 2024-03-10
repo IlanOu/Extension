@@ -6,6 +6,8 @@ This project follows on from [Alban Crepel](https://github.com/AlbanCrepel)'s co
 The aim of this project was to test different technologies that I was unfamiliar with (in this case, Nuxt and Tailwind).
 I created a new Wikipedia design (because right now it's pretty lame).
 
+Here's the link to the project: https://nuxt-test-opal.vercel.app
+
 # Project Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

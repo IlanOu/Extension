@@ -31,6 +31,7 @@ const props = defineProps({
 
     .divBox{
         box-shadow: 0 10px 20px 0px rgba(224, 223, 253, 0.5);
+        border: solid 1px #e0dffd;
     }
 
 </style>
